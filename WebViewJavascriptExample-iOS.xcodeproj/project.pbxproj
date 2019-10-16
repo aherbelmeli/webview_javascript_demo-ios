@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC80BE70A67E5533969A77D /* Pods_WebViewJavascriptExample_iOS_WebViewJavascriptExample_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA945DFA5D14A03898EB58C /* Pods_WebViewJavascriptExample_iOS_WebViewJavascriptExample_iOSUITests.framework */; };
+		208F90D76980774F185C8D4B /* Pods_WebViewJavascriptExample_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3249310A4C1C51692DC7A90 /* Pods_WebViewJavascriptExample_iOS.framework */; };
+		6B283A81B96D41D44839E7D0 /* Pods_WebViewJavascriptExample_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4063F15792DA0657D86B8FD2 /* Pods_WebViewJavascriptExample_iOSTests.framework */; };
+		A218157A235769160099CDD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2181579235769160099CDD3 /* AppDelegate.swift */; };
+		A218157C235769160099CDD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A218157B235769160099CDD3 /* ViewController.swift */; };
+		A218157F235769160099CDD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A218157D235769160099CDD3 /* Main.storyboard */; };
+		A2181581235769180099CDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2181580235769180099CDD3 /* Assets.xcassets */; };
+		A2181584235769180099CDD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2181582235769180099CDD3 /* LaunchScreen.storyboard */; };
+		A218158F235769180099CDD3 /* WebViewJavascriptExample_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A218158E235769180099CDD3 /* WebViewJavascriptExample_iOSTests.swift */; };
+		A218159A235769180099CDD3 /* WebViewJavascriptExample_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2181599235769180099CDD3 /* WebViewJavascriptExample_iOSUITests.swift */; };
+		A21815A82357699B0099CDD3 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = A21815A72357699B0099CDD3 /* demo.html */; };
+		A21815AA23576A580099CDD3 /* WebViewClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21815A923576A580099CDD3 /* WebViewClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A218158B235769180099CDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A218156E235769160099CDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2181575235769160099CDD3;
+			remoteInfo = "WebViewJavascriptExample-iOS";
+		};
+		A2181596235769180099CDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A218156E235769160099CDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2181575235769160099CDD3;
+			remoteInfo = "WebViewJavascriptExample-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FA945DFA5D14A03898EB58C /* Pods_WebViewJavascriptExample_iOS_WebViewJavascriptExample_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebViewJavascriptExample_iOS_WebViewJavascriptExample_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CEE04D140CD0239A9D66DF /* Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4063F15792DA0657D86B8FD2 /* Pods_WebViewJavascriptExample_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebViewJavascriptExample_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		739DD5513FF79017C0CB8E9F /* Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CCE367A87F3F809DA72F9B5 /* Pods-WebViewJavascriptExample-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewJavascriptExample-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-WebViewJavascriptExample-iOSTests/Pods-WebViewJavascriptExample-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E0BB08F8D70530A518336B4 /* Pods-WebViewJavascriptExample-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewJavascriptExample-iOS.release.xcconfig"; path = "Target Support Files/Pods-WebViewJavascriptExample-iOS/Pods-WebViewJavascriptExample-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A2181576235769160099CDD3 /* WebViewJavascriptExample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebViewJavascriptExample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2181579235769160099CDD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A218157B235769160099CDD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A218157E235769160099CDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2181580235769180099CDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2181583235769180099CDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2181585235769180099CDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A218158A235769180099CDD3 /* WebViewJavascriptExample-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WebViewJavascriptExample-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A218158E235769180099CDD3 /* WebViewJavascriptExample_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewJavascriptExample_iOSTests.swift; sourceTree = "<group>"; };
+		A2181590235769180099CDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2181595235769180099CDD3 /* WebViewJavascriptExample-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WebViewJavascriptExample-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2181599235769180099CDD3 /* WebViewJavascriptExample_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewJavascriptExample_iOSUITests.swift; sourceTree = "<group>"; };
+		A218159B235769180099CDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21815A72357699B0099CDD3 /* demo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		A21815A923576A580099CDD3 /* WebViewClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewClient.swift; sourceTree = "<group>"; };
+		C33F475F3364B583F521931A /* Pods-WebViewJavascriptExample-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewJavascriptExample-iOS.debug.xcconfig"; path = "Target Support Files/Pods-WebViewJavascriptExample-iOS/Pods-WebViewJavascriptExample-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E3249310A4C1C51692DC7A90 /* Pods_WebViewJavascriptExample_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebViewJavascriptExample_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96922D771D676D5AAAA11F0 /* Pods-WebViewJavascriptExample-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewJavascriptExample-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-WebViewJavascriptExample-iOSTests/Pods-WebViewJavascriptExample-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2181573235769160099CDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208F90D76980774F185C8D4B /* Pods_WebViewJavascriptExample_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2181587235769180099CDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B283A81B96D41D44839E7D0 /* Pods_WebViewJavascriptExample_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2181592235769180099CDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC80BE70A67E5533969A77D /* Pods_WebViewJavascriptExample_iOS_WebViewJavascriptExample_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CC9A6427BF68A2614933AB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C33F475F3364B583F521931A /* Pods-WebViewJavascriptExample-iOS.debug.xcconfig */,
+				9E0BB08F8D70530A518336B4 /* Pods-WebViewJavascriptExample-iOS.release.xcconfig */,
+				14CEE04D140CD0239A9D66DF /* Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.debug.xcconfig */,
+				739DD5513FF79017C0CB8E9F /* Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.release.xcconfig */,
+				E96922D771D676D5AAAA11F0 /* Pods-WebViewJavascriptExample-iOSTests.debug.xcconfig */,
+				9CCE367A87F3F809DA72F9B5 /* Pods-WebViewJavascriptExample-iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9DFDD882C773256BC29FE1A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3249310A4C1C51692DC7A90 /* Pods_WebViewJavascriptExample_iOS.framework */,
+				0FA945DFA5D14A03898EB58C /* Pods_WebViewJavascriptExample_iOS_WebViewJavascriptExample_iOSUITests.framework */,
+				4063F15792DA0657D86B8FD2 /* Pods_WebViewJavascriptExample_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A218156D235769160099CDD3 = {
+			isa = PBXGroup;
+			children = (
+				A2181578235769160099CDD3 /* WebViewJavascriptExample-iOS */,
+				A218158D235769180099CDD3 /* WebViewJavascriptExample-iOSTests */,
+				A2181598235769180099CDD3 /* WebViewJavascriptExample-iOSUITests */,
+				A2181577235769160099CDD3 /* Products */,
+				6CC9A6427BF68A2614933AB2 /* Pods */,
+				9DFDD882C773256BC29FE1A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2181577235769160099CDD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2181576235769160099CDD3 /* WebViewJavascriptExample-iOS.app */,
+				A218158A235769180099CDD3 /* WebViewJavascriptExample-iOSTests.xctest */,
+				A2181595235769180099CDD3 /* WebViewJavascriptExample-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2181578235769160099CDD3 /* WebViewJavascriptExample-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2181579235769160099CDD3 /* AppDelegate.swift */,
+				A218157B235769160099CDD3 /* ViewController.swift */,
+				A218157D235769160099CDD3 /* Main.storyboard */,
+				A2181580235769180099CDD3 /* Assets.xcassets */,
+				A2181582235769180099CDD3 /* LaunchScreen.storyboard */,
+				A2181585235769180099CDD3 /* Info.plist */,
+				A21815A72357699B0099CDD3 /* demo.html */,
+				A21815A923576A580099CDD3 /* WebViewClient.swift */,
+			);
+			path = "WebViewJavascriptExample-iOS";
+			sourceTree = "<group>";
+		};
+		A218158D235769180099CDD3 /* WebViewJavascriptExample-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A218158E235769180099CDD3 /* WebViewJavascriptExample_iOSTests.swift */,
+				A2181590235769180099CDD3 /* Info.plist */,
+			);
+			path = "WebViewJavascriptExample-iOSTests";
+			sourceTree = "<group>";
+		};
+		A2181598235769180099CDD3 /* WebViewJavascriptExample-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2181599235769180099CDD3 /* WebViewJavascriptExample_iOSUITests.swift */,
+				A218159B235769180099CDD3 /* Info.plist */,
+			);
+			path = "WebViewJavascriptExample-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2181575235769160099CDD3 /* WebViewJavascriptExample-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A218159E235769180099CDD3 /* Build configuration list for PBXNativeTarget "WebViewJavascriptExample-iOS" */;
+			buildPhases = (
+				0D531D28CA04AE39B9C3D32E /* [CP] Check Pods Manifest.lock */,
+				A2181572235769160099CDD3 /* Sources */,
+				A2181573235769160099CDD3 /* Frameworks */,
+				A2181574235769160099CDD3 /* Resources */,
+				5D7876D6DB58518711795C67 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebViewJavascriptExample-iOS";
+			productName = "WebViewJavascriptExample-iOS";
+			productReference = A2181576235769160099CDD3 /* WebViewJavascriptExample-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2181589235769180099CDD3 /* WebViewJavascriptExample-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21815A1235769180099CDD3 /* Build configuration list for PBXNativeTarget "WebViewJavascriptExample-iOSTests" */;
+			buildPhases = (
+				DA11AA0B1F8B401C957D0D86 /* [CP] Check Pods Manifest.lock */,
+				A2181586235769180099CDD3 /* Sources */,
+				A2181587235769180099CDD3 /* Frameworks */,
+				A2181588235769180099CDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A218158C235769180099CDD3 /* PBXTargetDependency */,
+			);
+			name = "WebViewJavascriptExample-iOSTests";
+			productName = "WebViewJavascriptExample-iOSTests";
+			productReference = A218158A235769180099CDD3 /* WebViewJavascriptExample-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2181594235769180099CDD3 /* WebViewJavascriptExample-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21815A4235769180099CDD3 /* Build configuration list for PBXNativeTarget "WebViewJavascriptExample-iOSUITests" */;
+			buildPhases = (
+				BA6956299DA2E414C6B301BF /* [CP] Check Pods Manifest.lock */,
+				A2181591235769180099CDD3 /* Sources */,
+				A2181592235769180099CDD3 /* Frameworks */,
+				A2181593235769180099CDD3 /* Resources */,
+				365B267780D1EDDFA72B4630 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2181597235769180099CDD3 /* PBXTargetDependency */,
+			);
+			name = "WebViewJavascriptExample-iOSUITests";
+			productName = "WebViewJavascriptExample-iOSUITests";
+			productReference = A2181595235769180099CDD3 /* WebViewJavascriptExample-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A218156E235769160099CDD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Augusto Herbel";
+				TargetAttributes = {
+					A2181575235769160099CDD3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A2181589235769180099CDD3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A2181575235769160099CDD3;
+					};
+					A2181594235769180099CDD3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A2181575235769160099CDD3;
+					};
+				};
+			};
+			buildConfigurationList = A2181571235769160099CDD3 /* Build configuration list for PBXProject "WebViewJavascriptExample-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A218156D235769160099CDD3;
+			productRefGroup = A2181577235769160099CDD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2181575235769160099CDD3 /* WebViewJavascriptExample-iOS */,
+				A2181589235769180099CDD3 /* WebViewJavascriptExample-iOSTests */,
+				A2181594235769180099CDD3 /* WebViewJavascriptExample-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2181574235769160099CDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2181584235769180099CDD3 /* LaunchScreen.storyboard in Resources */,
+				A21815A82357699B0099CDD3 /* demo.html in Resources */,
+				A2181581235769180099CDD3 /* Assets.xcassets in Resources */,
+				A218157F235769160099CDD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2181588235769180099CDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2181593235769180099CDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D531D28CA04AE39B9C3D32E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebViewJavascriptExample-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		365B267780D1EDDFA72B4630 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D7876D6DB58518711795C67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewJavascriptExample-iOS/Pods-WebViewJavascriptExample-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewJavascriptExample-iOS/Pods-WebViewJavascriptExample-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebViewJavascriptExample-iOS/Pods-WebViewJavascriptExample-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6956299DA2E414C6B301BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA11AA0B1F8B401C957D0D86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebViewJavascriptExample-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2181572235769160099CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21815AA23576A580099CDD3 /* WebViewClient.swift in Sources */,
+				A218157C235769160099CDD3 /* ViewController.swift in Sources */,
+				A218157A235769160099CDD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2181586235769180099CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A218158F235769180099CDD3 /* WebViewJavascriptExample_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2181591235769180099CDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A218159A235769180099CDD3 /* WebViewJavascriptExample_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A218158C235769180099CDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2181575235769160099CDD3 /* WebViewJavascriptExample-iOS */;
+			targetProxy = A218158B235769180099CDD3 /* PBXContainerItemProxy */;
+		};
+		A2181597235769180099CDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2181575235769160099CDD3 /* WebViewJavascriptExample-iOS */;
+			targetProxy = A2181596235769180099CDD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A218157D235769160099CDD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A218157E235769160099CDD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2181582235769180099CDD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2181583235769180099CDD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A218159C235769180099CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A218159D235769180099CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A218159F235769180099CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33F475F3364B583F521931A /* Pods-WebViewJavascriptExample-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebViewJavascriptExample-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aherbel.WebViewJavascriptExample-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A21815A0235769180099CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0BB08F8D70530A518336B4 /* Pods-WebViewJavascriptExample-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebViewJavascriptExample-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aherbel.WebViewJavascriptExample-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A21815A2235769180099CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96922D771D676D5AAAA11F0 /* Pods-WebViewJavascriptExample-iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebViewJavascriptExample-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aherbel.WebViewJavascriptExample-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebViewJavascriptExample-iOS.app/WebViewJavascriptExample-iOS";
+			};
+			name = Debug;
+		};
+		A21815A3235769180099CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCE367A87F3F809DA72F9B5 /* Pods-WebViewJavascriptExample-iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebViewJavascriptExample-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aherbel.WebViewJavascriptExample-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebViewJavascriptExample-iOS.app/WebViewJavascriptExample-iOS";
+			};
+			name = Release;
+		};
+		A21815A5235769180099CDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CEE04D140CD0239A9D66DF /* Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebViewJavascriptExample-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aherbel.WebViewJavascriptExample-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WebViewJavascriptExample-iOS";
+			};
+			name = Debug;
+		};
+		A21815A6235769180099CDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739DD5513FF79017C0CB8E9F /* Pods-WebViewJavascriptExample-iOS-WebViewJavascriptExample-iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WebViewJavascriptExample-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aherbel.WebViewJavascriptExample-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WebViewJavascriptExample-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2181571235769160099CDD3 /* Build configuration list for PBXProject "WebViewJavascriptExample-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A218159C235769180099CDD3 /* Debug */,
+				A218159D235769180099CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A218159E235769180099CDD3 /* Build configuration list for PBXNativeTarget "WebViewJavascriptExample-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A218159F235769180099CDD3 /* Debug */,
+				A21815A0235769180099CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21815A1235769180099CDD3 /* Build configuration list for PBXNativeTarget "WebViewJavascriptExample-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21815A2235769180099CDD3 /* Debug */,
+				A21815A3235769180099CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21815A4235769180099CDD3 /* Build configuration list for PBXNativeTarget "WebViewJavascriptExample-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21815A5235769180099CDD3 /* Debug */,
+				A21815A6235769180099CDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A218156E235769160099CDD3 /* Project object */;
+}

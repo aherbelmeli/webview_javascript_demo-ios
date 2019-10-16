@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WebViewJavascriptExample_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pg1-Dm-yUL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gRY-K2-Cbd" userLabel="Page View">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QPb-6i-DfG" firstAttribute="bottom" secondItem="gRY-K2-Cbd" secondAttribute="bottom" id="4K3-I8-V2L"/>
+                            <constraint firstItem="gRY-K2-Cbd" firstAttribute="top" secondItem="QPb-6i-DfG" secondAttribute="top" id="5oe-E3-wiJ"/>
+                            <constraint firstItem="gRY-K2-Cbd" firstAttribute="leading" secondItem="QPb-6i-DfG" secondAttribute="leading" id="i8q-y8-LBx"/>
+                            <constraint firstItem="QPb-6i-DfG" firstAttribute="trailing" secondItem="gRY-K2-Cbd" secondAttribute="trailing" id="lBj-G8-STq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QPb-6i-DfG"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageView" destination="gRY-K2-Cbd" id="4bK-yg-gBY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
